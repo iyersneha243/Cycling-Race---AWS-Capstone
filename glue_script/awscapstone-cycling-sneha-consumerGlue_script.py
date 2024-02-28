@@ -35,10 +35,10 @@ dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
 kinesis = boto3.client('kinesis', region_name='us-east-1')
 
 # Constants
-sns_topic_arn = 'arn:aws:sns:us-east-1:896889985719:sneha-sns'
+sns_topic_arn = 'arn:aws:sns:us-east-1:*********:sneha-sns'
 stream_name = 'awscapstone-cycling-sneha-streamKinesis'
 table_name = 'awscapstone-cycling-sneha-tableDynamoDB'
-secret_name = "snehapostgreRDSdbsecret"
+secret_name = "*********"
 region_name = "us-east-1"
 tablename = "static_threshold_data"
 
